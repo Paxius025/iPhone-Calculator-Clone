@@ -1,26 +1,17 @@
-# iPhone Calculator Clone
+# Clone เครื่องคิดเลขต้นแบบจาก iPhone
 
-This project aims to create a functional replica of the iPhone calculator. This involves designing an interface that closely resembles the iPhone's calculator app and implementing the core arithmetic operations. Below is a step-by-step outline of the process:
+![โครงการจำลองเครื่องคิดเลข iPhone](result.png "โครงการจำลองเครื่องคิดเลข iPhone")
 
-![iPhone Calculator Clone](result.png)
+## การออกแบบอินเทอร์เฟซผู้ใช้
+- **เลย์เอาต์:** จำลองเลย์เอาต์ของเครื่องคิดเลข iPhone รวมถึงการจัดเรียงปุ่มและหน้าจอแสดงผล
+- **การออกแบบสไตล์:** ใช้ CSS เพื่อให้ตรงกับรูปลักษณ์และความรู้สึก รวมถึงสี รูปทรงปุ่ม และการจัดตัวอักษร
 
+## การใช้งานฟังก์ชัน
+- **หน้าจอแสดงผล:** สร้างหน้าจอเพื่อแสดงตัวเลขที่ป้อนและผลลัพธ์
+- **ฟังก์ชันของปุ่ม:** ให้แน่ใจว่าปุ่มแต่ละปุ่ม (ตัวเลข การดำเนินการ และฟังก์ชันพิเศษ เช่น ล้างและเท่ากับ) ตอบสนองต่อการป้อนข้อมูลของผู้ใช้อย่างถูกต้อง
+- **ฟังก์ชันคณิตศาสตร์:** สร้างฟังก์ชันคณิตศาสตร์พื้นฐาน: บวก ลบ คูณ และหาร
+- **ฟังก์ชันพิเศษ:** รวมฟังก์ชันพิเศษ เช่น ล้าง (C), พลัส/ลบ (±), เปอร์เซ็นต์ (%) และจุดทศนิยม (.)
 
-## User Interface Design
-- **Layout:** Replicate the layout of the iPhone calculator, including the arrangement of buttons and the display screen.
-- **Styling:** Use CSS to match the look and feel, including colors, button shapes, and typography.
-
-## Functionality Implementation
-- **Display Screen:** Implement a screen to show input numbers and results.
-- **Button Functionality:** Ensure each button (numbers, operations, and special functions like clear and equals) responds correctly to user input.
-- **Arithmetic Operations:** Implement core arithmetic functions: addition, subtraction, multiplication, and division.
-- **Special Functions:** Include functionalities such as clear (C), plus/minus (±), percentage (%), and decimal point (.) operations.
-
-## Event Handling
-- **User Input:** Capture user input from button clicks and update the display accordingly.
-- **Calculation Logic:** Process the input to perform calculations and handle edge cases (e.g., division by zero).
-
-## Testing and Debugging
-- **Functionality Tests:** Test each button and operation to ensure accurate results.
-- **User Experience:** Ensure the calculator responds smoothly to user interactions, without lag or errors.
-
-By following this outline, you will create a fully functional iPhone calculator clone that replicates both the appearance and functionality of the original app.
+## การจัดการเหตุการณ์
+- **การป้อนข้อมูลของผู้ใช้:** จับการป้อนข้อมูลจากการคลิกปุ่มและอัปเดตหน้าจอให้ตรงตามนั้น
+- **ตรรกะการคำนวณ:** ประมวลผลการป้อนข้อมูลเพื่อทำการคำนวณและจัดการกรณีพิเศษ (เช่น การหารด้วยศูนย์)
