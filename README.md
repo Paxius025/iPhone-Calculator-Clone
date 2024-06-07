@@ -2,6 +2,9 @@
 
 This project aims to create a functional replica of the iPhone calculator. This involves designing an interface that closely resembles the iPhone's calculator app and implementing the core arithmetic operations. Below is a step-by-step outline of the process:
 
+![iPhone Calculator Clone](result.png)
+
+
 ## User Interface Design
 - **Layout:** Replicate the layout of the iPhone calculator, including the arrangement of buttons and the display screen.
 - **Styling:** Use CSS to match the look and feel, including colors, button shapes, and typography.
