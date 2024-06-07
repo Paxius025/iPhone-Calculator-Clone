@@ -9,13 +9,18 @@ function clearDisplay(){
 }
 
 function calculate(){
-   try{
-    display.value = parseFloat(eval(display.value))
-   }
-   catch(error){
-    display.value = "Error"
-   }
+   try {
+        const result = eval(display.value);
+        if (result === Infinity || result === -Infinity) {
+            display.value = "Error";
+        } else {
+            display.value = result;
+        }
+    } catch (error) {
+        display.value = "Error";
+    }
 }
+
 
 function changeOperator() {
     const currentValue = display.value;
